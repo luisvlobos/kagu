@@ -1,0 +1,100 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    color: #333;
+} 
+/* Navigation bar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    background-color: #f9f8f6;
+    padding: 0 25px;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    padding-left: 0;
+    margin-top: 24px;
+}
+
+li {
+    margin-right: 10px;
+}
+
+h1.logo {
+    font-size: 20px;
+    color: #323643;
+    margin: 0;
+    cursor: pointer;
+} 
+
+.links {
+    color: #333;
+    text-decoration: none;
+}
+
+.links:hover {
+    border-bottom: #709e94 5px solid;
+    transition: .2s;
+}
+
+.color {
+    color: #709e94;
+    font-family: 'El Messiri', sans-serif;
+    font-size: 40px;
+}
+
+/* Landing page */
+
+.container {
+    background-image: url('images/landingPage.jpg');
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.motto {
+    margin: 0 0 0 40px;
+    font-size: 60px;
+    padding-top: 1em;
+    max-width: 50%;
+}
+
+.landingPageDesc {
+    max-width: 100%;
+    font-weight: 500;
+    padding: 5px;
+}
+
+.motto, .landingPageDesc {
+    color: #f9f8f6;
+}
+
+/* Utilities */
+.btn {
+    margin-left: 40px;
+    background-color: #709e94;
+    font-size: 16px;
+    color: #f9f8f6;
+    border: solid 1px #709e94;
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+    margin-top: 40px;
+}
+
+.btn:hover {
+    background-color: #4a6d6500;
+    color: #323643;
+    transition: .4s;
+}
+
+.overlay {
+    background-color: #32364369;
+    max-width: 60%;
+    margin-left: 40px;
+    border-radius: 4px;
+}
