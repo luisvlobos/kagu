@@ -20,7 +20,7 @@ ul {
 }
 
 li {
-    margin-right: 10px;
+    margin-right: 20px;
 }
 
 h1.logo {
@@ -59,7 +59,7 @@ h1.logo {
 .motto {
     margin: 0 0 0 40px;
     font-size: 60px;
-    padding-top: 1em;
+    padding-top: .5em;
     max-width: 50%;
 }
 
@@ -76,10 +76,10 @@ h1.logo {
 /* Utilities */
 .btn {
     margin-left: 40px;
-    background-color: #709e94;
+    background-color: #323643;
     font-size: 16px;
     color: #f9f8f6;
-    border: solid 1px #709e94;
+    border: none;
     border-radius: 5px;
     padding: 10px;
     cursor: pointer;
@@ -87,14 +87,20 @@ h1.logo {
 }
 
 .btn:hover {
-    background-color: #4a6d6500;
-    color: #323643;
+    background-color: #4a6d65a8;
     transition: .4s;
 }
 
 .overlay {
-    background-color: #32364369;
+    background-color: #32364356;
     max-width: 60%;
     margin-left: 40px;
+    margin-top: 64px;
     border-radius: 4px;
+}
+
+.sectTitle {
+    text-align: center;
+    font-size: 25px;
+    margin-top: 40px;
 }
